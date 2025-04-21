@@ -1,10 +1,9 @@
 spring:
   application:
     name: config-repo
-
----
-spring:
-  profiles: dev
+  config:
+   activate:
+    on-profile: test
 eureka:
   client:
     register-with-eureka: false
