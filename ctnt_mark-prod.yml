@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ctnt_mark
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/ctnt_mark
+    username: prod_user
+    password: supersecret
+
+custom:
+  message: "This is PROD config for ctnt_mark"

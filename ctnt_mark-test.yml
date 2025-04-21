@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ctnt_mark
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ctnt_mark_test
+    username: test_user
+    password: test_pass
+
+custom:
+  message: "This is TEST config for ctnt_mark"
